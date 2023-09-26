@@ -9,6 +9,7 @@
   "author": "Danilo Mendes",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
     "mongoose": "^7.5.3"
   },
