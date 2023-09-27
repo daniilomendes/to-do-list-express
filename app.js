@@ -22,6 +22,7 @@ app.set('view engine', 'ejs')
 app.use('/', hootRouter)
 app.use('/checklists', checkListRouter)
 app.use('/checklists', taskRouter.checklistDependent)
+app.use('/tasks', taskRouter.simple)
 
 app.listen(3000, () => {
     console.log('Servidor iniciado!')
